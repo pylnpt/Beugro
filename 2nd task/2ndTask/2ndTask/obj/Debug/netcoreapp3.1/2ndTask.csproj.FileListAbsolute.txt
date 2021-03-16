@@ -1,0 +1,13 @@
+C:\Users\Admin\Documents\GitHub\Beugro\2nd task\2ndTask\2ndTask\obj\Debug\netcoreapp3.1\2ndTask.csprojAssemblyReference.cache
+C:\Users\Admin\Documents\GitHub\Beugro\2nd task\2ndTask\2ndTask\obj\Debug\netcoreapp3.1\2ndTask.AssemblyInfoInputs.cache
+C:\Users\Admin\Documents\GitHub\Beugro\2nd task\2ndTask\2ndTask\obj\Debug\netcoreapp3.1\2ndTask.AssemblyInfo.cs
+C:\Users\Admin\Documents\GitHub\Beugro\2nd task\2ndTask\2ndTask\obj\Debug\netcoreapp3.1\2ndTask.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\GitHub\Beugro\2nd task\2ndTask\2ndTask\bin\Debug\netcoreapp3.1\2ndTask.exe
+C:\Users\Admin\Documents\GitHub\Beugro\2nd task\2ndTask\2ndTask\bin\Debug\netcoreapp3.1\2ndTask.deps.json
+C:\Users\Admin\Documents\GitHub\Beugro\2nd task\2ndTask\2ndTask\bin\Debug\netcoreapp3.1\2ndTask.runtimeconfig.json
+C:\Users\Admin\Documents\GitHub\Beugro\2nd task\2ndTask\2ndTask\bin\Debug\netcoreapp3.1\2ndTask.runtimeconfig.dev.json
+C:\Users\Admin\Documents\GitHub\Beugro\2nd task\2ndTask\2ndTask\bin\Debug\netcoreapp3.1\2ndTask.dll
+C:\Users\Admin\Documents\GitHub\Beugro\2nd task\2ndTask\2ndTask\bin\Debug\netcoreapp3.1\2ndTask.pdb
+C:\Users\Admin\Documents\GitHub\Beugro\2nd task\2ndTask\2ndTask\obj\Debug\netcoreapp3.1\2ndTask.dll
+C:\Users\Admin\Documents\GitHub\Beugro\2nd task\2ndTask\2ndTask\obj\Debug\netcoreapp3.1\2ndTask.pdb
+C:\Users\Admin\Documents\GitHub\Beugro\2nd task\2ndTask\2ndTask\obj\Debug\netcoreapp3.1\2ndTask.genruntimeconfig.cache
