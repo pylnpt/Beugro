@@ -10,7 +10,7 @@ namespace _2ndTask
     class Program
     {
         static Random rn = new Random();
-        public static Dictionary<string, string> olvassTxt = new Dictionary<string, string>();
+        public static Dictionary<int, string> olvassTxt = new Dictionary<int, string>();
 
         static HashSet<int> rnList(int db, int end)
         {
@@ -21,8 +21,7 @@ namespace _2ndTask
             }
 
             return results;
-        } // I have used HashSet because in this way I don't have to worry about duplicates because it removes them.
-
+        } 
         static void readTxt(string fileName)
         {
             StreamReader sr = new StreamReader(fileName);
@@ -34,15 +33,39 @@ namespace _2ndTask
                 string[] data = row.Split('|');
                 key = data[0];
                 value = data[1];
-                olvassTxt.Add(key, value);
+                if (int.TryParse(key, out int result))
+                {
+                    olvassTxt.Add(int.Parse(key), value);
+                }
+                
             }
             sr.Close();
         }
 
-            static void Main(string[] args)
+        static List<string> searchedValues(HashSet<int> nums, Dictionary<int,string> dict)
+        {
+            List<string> results = new List<string>();
+            foreach (var x in nums)
+            {
+                foreach (var key in dict)
+                {
+                    if (x == key.Key)
+                        results.Add(key.Value);
+                }
+            }
+            return results;
+        }
+         
+        static void Main(string[] args)
         {
             var list = rnList(10, 50);
             readTxt("olvass.txt");
+            List<string>user_id_list = searchedValues(list, olvassTxt);
+            foreach (var item in user_id_list)
+            {
+                Console.WriteLine(item);
+            }
+
             
 
             Console.ReadKey();
