@@ -45,12 +45,18 @@ namespace _2ndTask
         static List<string> searchedValues(HashSet<int> nums, Dictionary<int,string> dict)
         {
             List<string> results = new List<string>();
-            foreach (var x in nums)
+            int x; 
+
+            foreach (KeyValuePair<int, string> key in dict)
             {
-                foreach (var key in dict)
+                foreach (var num in nums)
                 {
-                    if (x == key.Key)
-                        results.Add(key.Value);
+                    if (num == key.Key)
+                    {
+                        if (int.TryParse(key.Value, out x) && 0 < x)
+                            results.Add(key.Value);
+                    }
+                        
                 }
             }
             return results;
