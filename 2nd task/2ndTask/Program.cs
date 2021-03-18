@@ -13,7 +13,7 @@ namespace _2ndTask
         static Random rn = new Random();
         public static Dictionary<int, string> olvassTxt = new Dictionary<int, string>();
         public const string connectionString = "server=localhost; port=3308; user id=root; password=; database=cs_beugro; CharSet=utf8;";
-        static string fileName = @"C:\Users\Admin\Documents\GitHub\Beugro\2nd task\2ndTask\results.txt";
+        static string fileName = @"C:\Users\Admin\Documents\GitHub\Beugro\2nd task\2ndTask\2ndTask\results.txt";
         static StreamWriter sw = new StreamWriter((new FileStream(fileName, FileMode.Open)),  Encoding.UTF8);
 
         static HashSet<int> rnList(int db, int end)

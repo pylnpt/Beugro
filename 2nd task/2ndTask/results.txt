@@ -1,0 +1,11 @@
+﻿Tulajdonos	Márka	Típus
+Balogh K�lm�n	Fiat	Seicento
+V�radi Jakab	Opel	Astra
+Kov�cs Erik	Ford	Mondeo
+Bakos Barnab�s	Fiat	126
+Egyed �rmin	Opel	Vectra
+Varga Bendeg�z	Fiat	126
+Farag� Gergo	Fiat	Seicento
+	Seicento
+Miksa �rmin	Opel	Vectra
+Miksa �rmin	Fiat	126
