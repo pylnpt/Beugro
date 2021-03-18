@@ -2,7 +2,7 @@ SELECT user.name FROM `user`,user_car WHERE user_car.user = user.id and name LIK
 
 SELECT user.name FROM `user`,user_car WHERE user_car.user = user.id GROUP BY user.name HAVING COUNT(user_car.user) > 1;
 
-ALTER TABLE user ADD szig_szam varchar(11);
+ALTER TABLE user ADD szig_szam varchar(11) NOT NULL;
 ALTER TABLE user ADD nem BIT;
 --> 1 = férfi, 0 = nő;
 
